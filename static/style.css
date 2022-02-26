@@ -180,5 +180,23 @@ i.menu-mobile{
         margin-right: 0;
         font-size: 1rem;
     }
-  
+}
+
+*::-webkit-scrollbar{
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track{
+    width: 12px;
+    box-sizing: inset 0 0 0.3rem #00000050;
+    background-color: rgb(243, 243, 243);
+}
+
+*::-webkit-scrollbar-thumb{
+    background-color: #0a0a0e;
+    border-radius: 8%;
+}
+
+.section-bg{
+    background-color: #eff5ff;
 }
